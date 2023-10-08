@@ -1,0 +1,105 @@
+body{
+    font-family:Roboto, Arial, sans-serif;
+    background-color: brown;
+    margin: 0;
+    font-size: 16px;
+
+    /* background-image: url(logo.png);
+    background-repeat:no-repeat;
+    background-position: right 100px bottom 200px;
+    background-attachment: fixed;
+    background-size: 150px 500px ; */
+
+background: #c96 url(logo.png) no-repeat 100px 200px / 150px 500px fixed;
+
+
+} 
+.wrapper{
+    background-color: rgba(255, 255, 255, 0.781);
+    width: 950px;
+    padding: 15px ;
+    margin: 20px auto 0;
+}
+.header{
+    padding: 10px;
+    margin-bottom:15px;
+}
+.nav{
+    background-color: gray;
+    margin-bottom:15px;
+    
+}
+.nav ul{
+margin: 0;
+padding: 0;
+list-style: none;
+display: flex;
+}
+.nav ul li a{
+    padding: 10px;
+    display: block;
+}
+.nav ul li a:link,
+.nav ul li a:visited{
+    text-decoration: none;
+    color: #fff;
+}
+.nav ul li a:hover{
+    background-color: pink;
+}
+.nav ul li a:active{
+    background-color: yellow;
+}
+.central{
+    display: flex;
+    justify-content: space-between;
+}
+.main{
+    flex-basis: 620px;
+    text-align: justify;
+}
+.siderbar{
+    flex-basis: 280px;
+}
+.footer{
+    text-align: center;
+    background-color: gray;
+    margin-top:15px;
+    font-size: 14px;
+    padding: 5px;
+}
+
+.flex{
+    display: flex;
+    align-items: flex-start;
+}
+.imgright{
+    float: right;
+    margin: 0 0 10px 20px;
+}
+.blok{
+    border: 1px solid #999;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+.izdvojen{
+    font-weight: 700;
+    font-style: italic;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-weight: 700;
+}
+a:link a:visited {
+    color: #d11414;
+}
+a:hover{
+    color: skyblue;
+}
+a:active{
+    color:blue
+}
+
+.footer p{
+    margin: 0;
+}

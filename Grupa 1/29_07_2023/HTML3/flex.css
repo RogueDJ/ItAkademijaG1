@@ -1,0 +1,40 @@
+body{
+    background-color: brown;
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    background-color:floralwhite ;
+width: 950px;
+padding: 15px ;
+margin: 20px auto 0;
+}
+.header{
+    height: 150px;
+    background-color: green;
+    margin-bottom:15px;
+}
+.nav{
+    height: 40px;
+    background-color: gray;
+    margin-bottom:15px;
+}
+.central{
+    display: flex;
+    justify-content: space-between;
+}
+.main{
+    flex-basis: 660px;
+    height: 150px;
+    background-color: aliceblue;
+}
+.siderbar{
+    flex-basis: 280px;
+    height: 150px;
+    background-color: burlywood;
+}
+.footer{
+    height: 40px;
+    background-color: gray;
+    margin-top:15px;
+}

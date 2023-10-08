@@ -1,0 +1,14 @@
+<h3>Dobrodosli u nasu teretanu</h3>
+<p>Ako budete vredno vezbali, bicete zgodni kao nas drugar djole</p>
+Izaberi svoj danasnji program vezbanja:<br><br>
+
+{% for program in programi %}
+<a href="?program={{ program.id }}"><div style="border:1px solid red;padding:4px;margin:4px;">{{ program.naziv }}</div></a>
+
+{% endfor %}
+
+
+<h2>Vezbe za odabrani program</h2>
+{% for vezba in vezbe %}
+    {{ vezba.naziv }}
+{% endfor %}
